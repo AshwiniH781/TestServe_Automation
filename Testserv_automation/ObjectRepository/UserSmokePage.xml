@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSmokePageProperties>
+<WEB>
+
+<Userbutton locator="xpath"  value="//span[text()='Users']" />
+<CreateNewUser locator="xpath"  value="//button[.='Create New User']" />
+<UserName locator="xpath"   value="(//input[@type='text'])[2]" />
+<Password locator="xpath"  value="//input[@id='password']"  />
+<Email locator="xpath" value="//input[@id='email']" />
+<SelectRole locator="xpath" value="//select[@id='roleDropdown']"  />
+<SelectOption locator="xpath"  value="//option[.='User']" />
+<Profiledp locator="xpath"  value="//select[@id='profileDropdown']" />
+ <ProfileOption locator="xpath" value="//option[.='ProfileName']" />
+<Save locator="xpath"  value="//button[.='Save']"  />
+<EditIcon locator="xpath" value="(//img[@title='Edit'])[1]" />
+<FirstName locator="xpath"  value="//input[@id='firstName']" />
+<LastName locator="xpath"  value="//input[@id='lastName']" />
+<Update locator="xpath" value="//button[.='Update']" />
+<Client locator="xpath" value="//option[.='Client']" />
+<ViewIcon locator="xpath" value="(//img[@title='View'])[1]" />
+<Back locator="xpath"  value="//a[.='← Back']" />
+<Delete locator="xpath" value="(//img[@title='Delete'])[1]" />
+<DeleteButton locator="xpath" value="(//button[.='Delete'])[2]" />
+</WEB>
+</UserSmokePageProperties>

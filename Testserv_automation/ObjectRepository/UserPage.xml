@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UserPageProperties>
+<WEB>
+<Userbutton locator="xpath"  value="//span[text()='Users']" />
+<CreateNewUser locator="xpath"  value="//button[.='Create New User']" />
+<UserName locator="xpath"   value="(//input[@type='text'])[2]" />
+<Password locator="xpath"  value="//input[@id='password']"  />
+<Email locator="xpath" value="//input[@id='email']" />
+<SelectRole locator="xpath" value="//select[@id='roleDropdown']"  />
+<SelectOption locator="xpath"  value="//option[.='User']" />
+<Profiledp locator="xpath"  value="//select[@id='profileDropdown']" />
+ <ProfileOption locator="xpath" value="//option[.='Testserv_Profile']" />
+<Save locator="xpath"  value="//button[.='Save']"  />
+
+</WEB>
+</UserPageProperties>

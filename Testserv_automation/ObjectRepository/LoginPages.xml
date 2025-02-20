@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LoginPagesProperties>
+
+	<WEB>
+		<loginPage locator="xpath" value="//h1[text()='Login']" />
+		<userName_field locator="xpath" value="//input[@type='text']" />
+		<password_field locator="id" value="password" />
+		<loginButton locator="xpath" value="//button[@type='submit']" />
+		<error_message locator="xpath" value="//div[contains(text(),'Invalid Credentials!')]" />
+		
+		
+		
+	</WEB>
+
+
+</LoginPagesProperties>	

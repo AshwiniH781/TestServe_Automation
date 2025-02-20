@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-02-20T06:50:09.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6726309900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Launch and Login",
+        "description": "",
+        "id": "api-environment;launch-and-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1001219100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3560432200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser login to the application",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.launch_the_browser_login_t0_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1263746500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the API Environment button the ManageEnvironments page",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_the_API_Environment_button_the_ManageEnvironments_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 627144600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the Add New Environment button index page is displayed",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_the_Add_New_Environment_button_index_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1143392100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter all valid credentials into create environment screen",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.Enter_all_valid_credentials_into_create_environment_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201898000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on the save button manage variable screen is displayed",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_the_save_button_manage_variable_screen_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5613986400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on pickfrom API and enter response",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_pickfrom_API_and_enter_repsonse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28121700400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on save button data rule screen displayed",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_save_button_data_rule_screen_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3332030300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on back button the index page is displayed",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_back_button_the_index_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of null (setting \u0027value\u0027)\n  (Session info: chrome\u003d133.0.6943.54)\nBuild info: version: \u00274.15.0\u0027, revision: \u00271d14b5521b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.22\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7262570647ee72216bd277dffa1216f2, executeScript {script\u003ddocument.querySelector(\"input[name\u003d\u0027email\u0027]\").value\u003d\u0027ab3456@ifocussystec.in\u0027;, args\u003d[]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.54, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\\Users\\iFocus\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59692/devtoo..., se:cdpVersion: 133.0.6943.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7262570647ee72216bd277dffa1216f2\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)\r\n\tat com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_ellipse_the_option_is_displayed_and_click_genarte_button(APIEnvironmentStepDefination.java:352)\r\n\tat ✽.Click on ellipse the option is displayed and click genarte button(file:///C:/Users/iFocus/eclipse-workspace/Testserv_automation/src/test/resources/Smokefeaturefile/APItesting.feature:13)\r\n",
+              "duration": 1459279300,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Click on ellipse the option is displayed and click genarte button",
+            "match": {
+              "location": "com.testserv.smoke.stepDefination.APIEnvironmentStepDefination.click_on_ellipse_the_option_is_displayed_and_click_genarte_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APIEnvironment"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "API Environment",
+    "description": "",
+    "id": "api-environment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Smokefeaturefile/APItesting.feature",
+    "tags": []
+  }
+]

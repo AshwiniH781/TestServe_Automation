@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>testServeReport</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">testServeWEB_Chrome</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 17, 2025 02:07:14 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Module.feature : Verify that user are able to create edit the module</p>
+            <p class="text-sm">
+              <span>2:07:16 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Module.feature : Verify that user are able to create edit the module</h5>
+<span class='badge badge-success'>02.17.2025 2:07:16 PM</span>
+<span class='badge badge-danger'>02.17.2025 2:07:16 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Module.feature : Verify that user are able to create edit the module</p>
+            <p class="text-sm">
+              <span>2:07:16 PM</span> / <span>00:00:16:956</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">Module.feature : Verify that user are able to create edit the module</h5>
+<span class='badge badge-success'>02.17.2025 2:07:16 PM</span>
+<span class='badge badge-danger'>02.17.2025 2:07:33 PM</span>
+<span class='badge badge-default'>00:00:16:956</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:05:073</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Given : users will launch the browser and enter the url</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:22 PM</td>
+        <td>
+          <span class='badge black-text white'>User entered the value  in Usernamefield</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:22 PM</td>
+        <td>
+          <span class='badge black-text white'>usersname field accept the username</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:23 PM</td>
+        <td>
+          <span class='badge black-text white'>User entered the value  in Password</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:27 PM</td>
+        <td>
+          <span class='badge black-text white'>lands on homepage</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:426</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>info : User click on the module button and lands on the create new module page</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:29 PM</td>
+        <td>
+          <span class='badge black-text white'>users lands on manage module page</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:31 PM</td>
+        <td>
+          <span class='badge black-text white'>Users lands on create module page</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:097</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>And : Users enter all valid credentials and all fields accept the values</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:31 PM</td>
+        <td>
+          <span class='badge black-text white'>User entered the value  in RandomName</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:31 PM</td>
+        <td>
+          <span class='badge black-text white'>Entered Module Name</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:31 PM</td>
+        <td>
+          <span class='badge black-text white'>Entered Module Path</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:31 PM</td>
+        <td>
+          <span class='badge black-text white'>Entered Description</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:32 PM</td>
+        <td>
+          <span class='badge black-text white'>User clicked on Savebutton</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:32 PM</td>
+        <td>
+          <span class='badge black-text white'>Clicked on Save button</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge warning-bg log ">Warning</span></li>
+              <li><span class='badge badge-default'>30:00:887</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Then : user edit the module scussfully</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>2:07:32 PM</td>
+        <td>
+          <span class='badge white-text red'>Edit succssfully toast message is not displayed and it fails to navigates to the manage module page</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:07:33 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,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0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAA/O/4uAAANDUlEQVQAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACBEfn5+vvcxAAAAAADwKH7+/PlRm7ICGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAAAIQQoAEAAAAACCFAAwAAAAAQQoAGAAAAACCEAA0AAAAAQAgBGgAAAACAEAI0AAAAAAAhBGgAAAAAAEII0AAAAAAAhBCgAQAAAAAIIUADAAAAABBCgAYAAAAAIIQADQAAAABACAEaAAAAAIAQAjQAAAAAACEEaAAAAAAAQgjQAAAAAACEEKABAAAAAAghQAMAAAAAEEKABgAAAAAghAANAAAAAEAIARoAAAAAgBACNAAAAAAAIQRoAAAAAABCCNAAAAAA8P/t2jsKwkAUQNEI7jNryy6TzsJGUDMRvH7gnHJmGF59eUBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJM7fHgAAAAAAgF83z/P+g2VZ7g9tQAMAAAAAMPCwLw9vBWgAAAAAAMaeVeadNi1AAwAAAABwyH1r3t+MFqABAAAAADjqtjjv12cBGgAAAACA11y787A+T9N02rbtIyMBAAAAAPAH1nV911c2oAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASFwARNngYEL7eVcAAAAASUVORK5CYII=" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 17, 2025 02:07:14 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 17, 2025 02:07:33 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='50%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='75%'><b>3</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>14</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Module.feature : Verify that user are able to create edit the module":0,"Module.feature : Verify that user are able to create edit the module":16.956
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>IP Address</td>
+<td>192.168.0.86</td>
+</tr>
+<tr>
+<td>Host Name</td>
+<td>IFOCUS-LT85</td>
+</tr>
+<tr>
+<td>UserName</td>
+<td>iFocus</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 1,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 0,
+warningChild: 1,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 1,
+skipEvents: 0,
+infoEvents: 13
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

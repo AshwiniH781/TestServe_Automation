@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestServe#Sanity">
+		
+	<test name="SanityWeb_Tests">
+
+
+		<classes>
+		 
+		<class name="com.testserver.testRunner.Sanity.SanitySuiteTestRunnerRW" />
+
+		</classes>
+
+	</test>
+</suite>

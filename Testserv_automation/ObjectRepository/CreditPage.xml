@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditPageproperties>
+<WEB>
+
+<CreditButton locator="xpath" value="//span[.='Credits']" />
+<EditIcon locator="xpath" value="(//button[@title='Edit'])[1]"/>
+<CreditName locator="xpath" value="//input[@id='packageName']"/>
+<Update locator="xpath" value="//button[@type='submit']"/>
+<ViewIcon locator="xpath"  value="(//button[@title='View'])[1]" />
+<Close locator="xpath" value="(//button[@title='Close'])[3]" /> 
+<liccensedAPI locator="xpath"  value="//input[@id='licensedAPIRuns']" />
+<LicensedUser locator="xpath" value="//input[@id='licensedUsers']" />
+<DasboardUsage locator="xpath" value="//input[@id='dashboardUsage']" />
+<Description locator="xpath"  value="//textarea[@name='PackageDescription']"/>
+
+
+
+
+
+
+
+
+</WEB>
+</CreditPageproperties>

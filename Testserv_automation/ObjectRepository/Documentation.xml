@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentationProperties>
+<WEB>
+
+
+<Documetation locator="xpath" value="//span[.='Documentation']" />
+<View locator="xpath" value="//button[.='View Document']" />
+<CICD locator="xpath"  value="//a[.='CI/CD Integration']" />
+<JenkinsSteps locator="xpath"  value="//button[.='Jenkins file configuration steps']" />
+<Close locator="xpath"  value="//img[@title='Close']" />
+<BreadCrumbs locator="xpath" value="//a[.='Dashboard']" />
+
+
+</WEB>
+</DocumentationProperties>

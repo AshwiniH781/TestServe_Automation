@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FeedBackPageProperties>
+<WEB>
+<FeedBack locator="xpath" value="//span[.='Feedback']" />
+<Name locator="xpath" value="//input[@id='fname']" /> 
+<Role locator="xpath" value="//input[@id='frole']" />
+<Comments locator="xpath" value="//textarea[@id='fcomments']" />
+<Submit locator="xpath" value="//button[.='Submit']" />
+<Ratings locator="xpath" value="//button[.='4']" />
+<Logout locator="xpath" value="//img[@alt='tooltip']" />
+<Download locator="xpath" value="//a[@class='bg-primary text-white px-4 py-2 rounded-lg flex items-center']" />
+<HighttoLow locator="xpath"  value="//a[.='Rating: High to low']" />
+<SortBy locator="xpath" value="//button[@type='button']" />
+<Toggle locator="xpath" value="(//span[@class='slider round'])[1]" />
+<TestservLogo locator="xpath" value="(//img[@alt='TestServ Logo'])[2]" />
+<Dashboard locator="xpath"  value="//a[.='Dashboard']" />
+</WEB> 
+</FeedBackPageProperties>

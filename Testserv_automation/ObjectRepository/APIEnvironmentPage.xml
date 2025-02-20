@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APIEnvironmentPageProperties>
+
+	  <WEB>
+		
+		<APItestingbutton locator="xpath" value="//span[.='API Testing']" />
+		
+		<APIEnvironmentbutton locator="xpath" value="//span[.='API Environment']"/>
+		<Addnewenvironment locator="xpath" value="//a[.='+ New Environment']" />
+		<Selectprojectdropdown locator="id" value="txtProjectId" />
+		<selectoption locator="xpath" value="//option[.='dqjoafnn']" />
+		<Environmentname locator="xpath" value="//input[@id='txtenvironmentname']" />
+		<postmancollexctionurl locator="xpath" value="//input[@id='txtpostmancollection']" />
+		<savebutton locator="xpath" value="//button[.='Save']" />
+		<pickfromapi locator="xpath" value="(//select[@name='getValueFrom'])[2]" />
+		<selectPickAPI locator="xpath" value="(//option[.='Pick from API'])[2]" />
+		<selctapi locator="xpath" value="//select[@id='apiToGetValueFrom_AcessToken']" />
+		<login locator="xpath" value="(//option[.='LOGIN'])[2]" />
+		<whatfiledfromresponse locator="xpath" value="//input[@id='apiToGetrespval_AcessToken']" />
+		<managesave locator="xpath" value="//button[.='Save']" />
+		<Nobutton locator="xpath"  value="(//button[@class='button btn-dark'])[1]" />
+		<helathtext locator="xpath" value="//h3[.='Health Test API']" />
+		<startButton locator="xpath"  value="//button[.='Start']" />
+		<saveHealthTestAPI locator="xpath"  value="(//button[@class='button btn-primary'])[3]" />
+		<NextButton locator="xpath" value="(//button[@class='button btn-primary'])[4]" />
+		<ClickNode locator="xpath" value="(//span[@class='ml-2 cursor-pointer '])[2]" /> 
+		<createprojectnode locator="xpath" value="(//span[@class='ml-2 cursor-pointer '])[3]" />
+		<Src locator="xpath" value="//div[@class='react-flow__node react-flow__node-default nopan selectable']" />
+		<Dst locator="xpath" value="(//div[@role='button'])[1]" />
+		<Arrowmark locator="xpath" value="//div[@class='react-flow__handle react-flow__handle-bottom nodrag nopan source connectable connectablestart connectableend connectionindicator']" />
+		<Arrowmark2 locator="xpath" value="(//div[@class='react-flow__handle react-flow__handle-top nodrag nopan target connectable connectablestart connectableend connectionindicator'])[2]" />
+	    <node locator="xpath" value="//div[@class='react-flow__viewport react-flow__container']//*[name()='circle']" />
+	    <responsebutton locator="xpath" value="//button[.='Response']" />
+	    <ResponseValue locator="xpath"  value="//input[@placeholder='Enter Response']"/>
+	    <Requestdropdown locator="xpath" value="//button[@id='headlessui-menu-button-:rv:']" />
+	    <SelectOptions locator="xpath"  value="(//a[@class='text-gray-700 block px-4 py-2 text-sm'])[2]" />
+	    <SaveIcon locator="xpath"  value="//span[@title='save']" />
+	    <MasterSave locator="xpath"  value="//span[@class='inline-flex ml-3 items-center rounded-md bg-blue-500 px-1.5 py-1 text-xs font-medium ring-1 ring-inset ring-blue-700/10']"/>
+	    <SaveRelationAPI locator="xpath"  value="//input[@id='api_name']"/>
+	     <SubmitRelation locator="xpath"  value="//button[@type='submit']"/>
+	     <BreadCrumbAPI locator="xpath"  value="//a[.='API Environment']"/>
+	     <ellipse locator="xpath" value="//button[@data-dropdown-toggle='environmentActions-1']" />
+	     <Genarte locator="xpath"  value="(//div[@class='generate'])[1]" />
+	     <button locator="xpath" value="//button[@id='btnconfGenTestData']" />
+	     <Manage locator="xpath"  value="(//p[.='Manage'])[1]" />
+	     <MicrosoftProject locator="xpath"  value="//option[.='Microsoft_project']" />
+	
+	</WEB>
+	
+</APIEnvironmentPageProperties>

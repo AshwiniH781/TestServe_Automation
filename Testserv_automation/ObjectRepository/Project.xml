@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectProperties>
+
+	<WEB>
+		
+		<projectmodule locator="xpath" value="//span[.='Project']" />
+		<createnewProject locator="xpath" value="//button[.='Create New Project']" />
+		<projectName locator="xpath" value="//input[@placeholder='Enter Project Name']" />
+		<checkbox locator="xpath" value="//label[.='API Automation']" />
+		<savebutton locator="xpath" value="//button[@type='submit']" />
+	    <AddUser locator="xpath"  value="(//img[@alt='Add User'])[1]" />
+	    <AddUserCheckbox locator="xpath" value="(//input[@class='custom-checkbox ms-2 m-1'])[1]"  />
+	    <AssignUsers locator="xpath"   value="//button[.='Assign Users']" />
+	    <Editicon locator="xpath" value="(//img[@title='Edit'])[1]" />
+	    <Editprojectname locator="xpath"   value="//input[@id='projectNameforedit']" />
+	    <Update locator="xpath"   value="(//button[@type='submit'])[2]" />
+</WEB>
+</ProjectProperties>
+		
+
+
+
+
+

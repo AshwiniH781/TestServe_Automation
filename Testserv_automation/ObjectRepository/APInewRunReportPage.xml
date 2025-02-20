@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APInewRunReportPageProperties>
+<WEB>
+
+<Singlenev locator="xpath" value="//span[.='Single Environment']" />
+<APInewRun locator="xpath" value="(//span[.='API Run'])[1]" />
+<APInewRunbutton locator="xpath" value="//button[.='+ New API Run']" />
+<LiveAPITest locator="xpath"  value="//a[@id='apilivetest']" />
+<SelectProject locator="xpath" value="(//span[.='Select Project'])[1]"  />
+<selectprojectoption locator="xpath" value="//option[.='dqjoafnn']"  />
+<clickanywhere locator="xpath"   value="//h3[.='Project Name']" />
+<SelectEnv locator="xpath"  value="(//span[.='Select Environment'])[1]"  />
+<SelectEnvOption locator="xpath"  value="(//option[.='Prod'])[2]" />
+<Savebutton locator="xpath" value="//button[@id='submitNewRun']" />
+<dashboard locator="xpath" value="//a[.='Dashboard']" />
+<APIReport locator="xpath"  value="(//span[.='API Report'])[1]" />
+<APIReportellipse locator="xpath"  value="//button[@data-dropdown-toggle='dropdownItemForActions-0']" />
+<Edit locator="xpath" value="(//div[@class='edit'])[1]" />
+<TestCase locator="xpath" value="(//div[@class='testcases'])[1]" />
+<View locator="xpath"  value="(//a[@class='checkbox-label-container'])[2]"  />
+<negativeTc locator="xpath"  value="//a[@id='tdnegative']" />
+<TCBack locator="xpath"  value="//a[.='API Report']" />
+<ViewReport locator="xpath" value="//a[.='Report']" />
+<DetailedBack locator="xpath" value="//a[.='API Report']" />
+<checkBox locator="xpath" value="//input[@id='selectAllCheckbox']" />
+<bulkupdate locator="xpath"  value="//div[@id='btnBulkUpdate']" />
+<Actionstatus locator="xpath"  value="//select[@id='selectedStatus']" />
+<FixedStatus locator="xpath" value="(//option[@value='Fixed'])[1]"  />
+<CommentBox locator="xpath"  value="//textarea[@id='txtComments']"  />
+<Updatebutton locator="xpath"  value="//button[@id='updateButton']" />
+<BackButton locator="xpath"  value="//img[@title='Back']" />
+<Okay locator="xpath"  value="//button[.='Okay']" />
+<History locator="xpath"  value="//div[@class='history']" />
+<HistoryBack locator="xpath"  value="//img[@title='Back']"  />
+<MicroProject locator="xpath"  value="//option[.='Microsoft_project']" />
+<LoadingSpinner locator="xpath"  value="//div[@class='card-with-border in-progress-card']" />
+<SingleCheckbox locator="xpath" value="(//input[@type='checkbox'])[2]" />
+<SingleComments locator="xpath" value="(//textarea[@name='txtComments'])[1]" />
+<SingleUpdate  locator="xpath"  value="(//a[.='Update'])[1]"/>
+<PostBody locator="xpath" value="(//button[@data-popover-trigger='click'])[1]" />
+<Accordian locator="xpath"  value="(//button[@aria-expanded='false'])[1]" />
+<RequestBodyView locator="xpath" value="//button[@data-popover-trigger='click']" />
+<CopyIcon locator="xpath"  value="//button[@class='copy-icon']" />
+<Filter locator="xpath" value="//button[@id='singleEnvFilterButton']" />
+<Past6Months locator="xpath"  value="//li[.='Past 6 Months']" />
+
+
+</WEB>
+</APInewRunReportPageProperties>
+
+
+
+

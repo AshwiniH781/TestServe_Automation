@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CompanyPageProperties>
+
+	<WEB>
+		
+		<companypage locator="xpath" value="//h2[text()='List of Companies']" />
+		<logo locator="id" value="ifocuslogo"/>
+		<companybutton locator="xpath" value="//span[.='Company']" />
+		<createnewcompanybutton locator="xpath" value="//button[.='Create New Company']" />
+		<companynamefiled locator="id" value="company_CompanyName" />
+		<usernamefield locator="xpath" value="//input[@type='name']" />
+		<emailidfield locator="xpath" value="//input[@type='email']" />
+		<passwordfield locator="xpath" value="//input[@placeholder='Enter Password']" />
+		<savebutton locator="xpath" value="(//button[contains(text(),'Save ')])[1]" />
+		<profilefield locator="id" value="profileNameToCreate" />
+		<descriptionprofile locator="id" value="profileDescription" />
+		<Assignmodule locator="xpath" value="//label[.='API Testing']" />
+		<projectbutton locator="xpath" value="//label[.='Project']" />
+		<usercheckbox locator="xpath" value="//label[.='Users']" />
+		<profilecheckbox locator="xpath" value="//label[.='Profiles']" />
+		<savebuttonprofile locator="xpath" value="(//button[@class='btn btn-lightblue next-btn'])[2]" />
+		<creditnamefield locator="id" value="package_PackageName" />
+		<LicensedUsers locator="id" value="package_LicensedUsers" />
+		<LicensedAPIRuns locator="id" value="package_LicensedAPIRuns" />
+		<dashboardusage locator="id" value="package_DashboardUsage" />
+		<excessapinewrun locator="xpath" value="(//input[@type='number'])[2]" />
+		<creditdescription locator="id" value="package_PackageDescription"/>
+		<creditexpirydata locator="xpath" value="//input[@type='date']" />
+		<createbutton locator="xpath" value="//button[.='Create']" />
+		<Credit locator="xpath" value="//span[.='Credits']"/>
+		<TestData locator="xpath" value="(//img[@alt='Test Data Permission'])[1]" />
+		<AIGenartion locator="xpath" value="//label[.='AI-Generation']" />
+		<Sumbit locator="xpath" value="//button[.='Submit']" />
+		<EditIcon locator="xpath"  value="(//button[@title='Edit'])[1]"/>
+		<Update locator="xpath"  value="//button[.='Update']" />
+		<ViewIcon locator="xpath" value="(//button[@title='View'])[1]" />
+		<NextButton locator="xpath" value="(//button[.='Next'])[1]" />
+		<ProfileNext locator="xpath" value="(//button[.='Next'])[2]" />
+		<Back locator="xpath" value=" //a[.=' ← Back']"/>
+		
+		
+	</WEB>
+	
+</CompanyPageProperties>

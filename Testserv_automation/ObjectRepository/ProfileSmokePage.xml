@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProfileSmokePageProperties>
+<WEB>
+
+<Profile locator="xpath"  value="//span[.='Profiles']" />
+<CreateNewProfile locator="xpath" value="//span[.='Create New Profile']" />
+<ProfileName locator="xpath" value="//input[@id='profileName']"/>
+<APITesting locator="xpath" value="//label[.='API Testing']" />
+<Project locator="xpath" value="//label[.='Project']" />
+<Feedback locator="xpath"   value="//label[.='Feedback']" />
+
+<Des locator="xpath"   value="//textarea[@id='profileDescription']" />
+<SaveProfile locator="xpath" value="//button[@type='submit']" />
+<ProfileImage locator="xpath" value="(//img[@title='Profile Image'])[1]" />
+<CameraIcon locator="xpath"  value="//div[@class='bg-gray-600 h-6 w-6 rounded-full flex justify-center items-center absolute bottom-0 right-0 cursor-pointer']" />
+<Browse locator="xpath" value="//label[@for='file-input']" />
+<Updatebutton locator="xpath"  value="//button[.='Update']" />
+<EditPassword locator="xpath"  value="//button[.='Edit Password']" />
+<oldPassword locator="xpath" value="//input[@id='oldPasswordField']" />
+<NewPassword locator="xpath" value="//input[@id='newPasswordField']" />
+<ConfirmPasword locator="xpath" value="//input[@id='confirmPasswordField']"/>
+<Update locator="xpath" value="//button[.='Update']"/>
+<EditIcon locator="xpath" value="(//a[@title='Edit'])[1]" />
+
+</WEB>
+</ProfileSmokePageProperties>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModulePageProperties>
+<WEB>
+
+<Modulebutton locator="xpath" value="//span[.='Modules']" />
+<CreateNewModule locator="xpath" value="//span[.='Create New Module']" />
+<ModuleName locator="xpath" value="//input[@id='ModuleName']" />
+<OrderId locaror="xpath" value="(//input[@class='bg-backgroundlight border border-separator rounded-xl w-full py-2.5 px-4 text-gray-700 text-sm leading-tight shadow-md focus:outline-none focus:bg-white focus:border-complementory'])[2]" />
+<Icons locaror="xpath" value="//input[@name='Icons']"/>
+<ModulePath   locaror="xpath" value="//input[@id='ModuleURL']"/>
+<Description  locaror="xpath" value="//textarea[@name='ModuleDescription']"/>
+<EditIcon locaror="xpath" value="//table//tr[1]//td[5]//a[1]" />
+<UpdateButton locaror="xpath" value="//button[.='Update']"/>
+<Save locator="xpath"  value="//button[.='Save']" />
+<Check locator="xpath" value="//label[.='Child']" />
+<Delete locator="xpath"  value="(//a[@title='Delete'])[1]" />
+<deleteButton locator="xpath"  value="//input[@value='Delete']" />
+</WEB>
+</ModulePageProperties>

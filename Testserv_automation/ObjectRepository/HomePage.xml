@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HomePageProperties>
+
+	<WEB>
+		
+		<homePage locator="xpath" value="//div[contains(@class,'card bg-for-welcome-cards')]" />
+		<testServe_logo locator="xpath" value="//img[@id='ifocuslogo']" />
+		<companymainTab locator="xpath" value="//span[text()='Company']" />
+		<companypage locator="xpath" value="//h2[text()='List of Companies']" />
+		<createNewcompany_button locator="xpath" value="//button[text()='Create New Company']" />
+		<profileTab locator="xpath" value="//span[text()='Profiles']" />
+		<creditTab locator="xpath" value="//span[text()='Credits']" />
+		<updatedProfileName locator="xpath" value="(//td[2])[1]" />
+		<updatedCreditName locator="xpath" value="(//td[2])[1]" />
+		
+		
+	</WEB>
+	
+</HomePageProperties>

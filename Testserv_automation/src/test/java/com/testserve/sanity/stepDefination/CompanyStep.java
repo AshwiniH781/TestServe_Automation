@@ -91,6 +91,7 @@ public class CompanyStep extends BaseTest
 	    	}
 	    	else {
 	    		logStatus("error", "users click not  the login button");
+	    		logStatus("error", "users click not  the login button");
 	    	}
 	    }
 	
